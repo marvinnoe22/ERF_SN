@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Team_Lead</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-01 00:53:55</sys_created_on>
+        <sys_id>183c1fa2db6b73008062fe1b68961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Lead</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_update_name>sys_ui_view_183c1fa2db6b73008062fe1b68961941</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-01 00:53:55</sys_updated_on>
+        <title>Team Lead</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">e6544726dbe773008062fe1b689619df</application>
+        <file_path/>
+        <instance_id>b695a58cdbc43b0052dd2f17d49619ef</instance_id>
+        <instance_name>dev74125</instance_name>
+        <name>sys_ui_view_183c1fa2db6b73008062fe1b68961941</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Team_Lead</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-01 00:53:55</sys_created_on><sys_id>183c1fa2db6b73008062fe1b68961941</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Team Lead</sys_name><sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package><sys_policy/><sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope><sys_update_name>sys_ui_view_183c1fa2db6b73008062fe1b68961941</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-01 00:53:55</sys_updated_on><title>Team Lead</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>2033308204</payload_hash>
+        <record_name>Team Lead</record_name>
+        <reverted_from/>
+        <source>aa544726dbe773008062fe1b689619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-01 00:53:55</sys_created_on>
+        <sys_id>503c1fa2db6b73008062fe1b68961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cea506f350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-01 00:53:55</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>983c1fa2f06b730046a6a6fb94224442</update_guid>
+        <update_guid_history>983c1fa2f06b730046a6a6fb94224442:2033308204</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 02:23:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>7e23483585834dc8935ec1084c118c40</sys_id>
+        <sys_metadata>183c1fa2db6b73008062fe1b68961941</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Lead</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_scope_delete display_value="">95a369f454d64224a795ff6f455b98a4</sys_scope_delete>
+        <sys_update_name>sys_ui_view_183c1fa2db6b73008062fe1b68961941</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_183c1fa2db6b73008062fe1b68961941">503c1fa2db6b73008062fe1b68961943</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 02:23:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

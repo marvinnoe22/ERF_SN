@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_travel" table="x_393646_erf_erf" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Economy</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50f7d7b2dba7b3008062fe1b689619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+            <value>economy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcf7d7b2dba7b3008062fe1b689619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+            <value>business</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 1</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98f7d7b2dba7b3008062fe1b689619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+            <value>class1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 2</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54f7d7b2dba7b3008062fe1b689619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+            <value>class2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 3</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10f7d7b2dba7b3008062fe1b689619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+            <value>class3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Luxury Seater</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8f7d7b2dba7b3008062fe1b689619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+            <value>luxury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semi Sleeper</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94f71bb2dba7b3008062fe1b68961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+            <value>semiSleeper</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Full Sleeper</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50f71bb2dba7b3008062fe1b68961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+            <value>fullSleeper</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_393646_erf_erf</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-02 19:05:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b39f589bdb2333008062fe1b689619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-02 19:05:28</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_travel</element>
+            <name>x_393646_erf_erf</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 19:13:49</sys_created_on>
+            <sys_id>98f7d7b2dba7b3008062fe1b689619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_travel</sys_name>
+            <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+            <sys_update_name>sys_choice_x_393646_erf_erf_type_of_travel</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 19:13:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

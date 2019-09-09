@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Travel Type" section_id="7855136edb2b73008062fe1b68961960" sys_domain="global" table="x_393646_erf_erf" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mode_of_travel</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 00:07:51</sys_created_on>
+            <sys_id>a75e1cd1dbfbf3008062fe1b68961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel Type" display_value="Travel Type" name="x_393646_erf_erf" sys_domain="global" view="Default view">7855136edb2b73008062fe1b68961960</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 00:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>if_other</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 00:07:51</sys_created_on>
+            <sys_id>2f5e1cd1dbfbf3008062fe1b68961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel Type" display_value="Travel Type" name="x_393646_erf_erf" sys_domain="global" view="Default view">7855136edb2b73008062fe1b68961960</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 00:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 00:07:51</sys_created_on>
+            <sys_id>af5e1cd1dbfbf3008062fe1b68961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel Type" display_value="Travel Type" name="x_393646_erf_erf" sys_domain="global" view="Default view">7855136edb2b73008062fe1b68961960</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 00:07:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_travel</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 00:07:51</sys_created_on>
+            <sys_id>235e1cd1dbfbf3008062fe1b68961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Travel Type" display_value="Travel Type" name="x_393646_erf_erf" sys_domain="global" view="Default view">7855136edb2b73008062fe1b68961960</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 00:07:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Travel Type</caption>
+            <header>false</header>
+            <name>x_393646_erf_erf</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-01 00:23:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7855136edb2b73008062fe1b68961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Travel Type</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+            <sys_update_name>sys_ui_section_7855136edb2b73008062fe1b68961960</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-01 00:23:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

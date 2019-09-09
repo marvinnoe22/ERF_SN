@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="ERF DataDef">8c9c9920dbb773008062fe1b689619b1</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_393646_erf_priority_erf</matcher_table>
+        <matcher_table_field>impact</matcher_table_field>
+        <source_table>x_393646_erf_erf</source_table>
+        <source_table_field>impact</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 20:45:22</sys_created_on>
+        <sys_id>01bc9160dbb773008062fe1b68961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impact</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_update_name>dl_definition_rel_match_01bc9160dbb773008062fe1b68961931</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 20:45:22</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>

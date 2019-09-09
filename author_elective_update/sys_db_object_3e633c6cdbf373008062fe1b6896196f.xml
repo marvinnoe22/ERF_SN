@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>ERF Priority</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_393646_erf_erf_priority</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Data Lookup Definitions" name="dl_definition">99e4deeee1f1330078502406b63333ac</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 18:03:45</sys_created_on>
+        <sys_id>3e633c6cdbf373008062fe1b6896196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF Priority</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_update_name>sys_db_object_3e633c6cdbf373008062fe1b6896196f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 18:03:45</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_393646_erf.erf_priority_user" name="x_393646_erf.erf_priority_user">aad73460db3773008062fe1b68961979</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">e6544726dbe773008062fe1b689619df</application>
+        <file_path/>
+        <instance_id>b695a58cdbc43b0052dd2f17d49619ef</instance_id>
+        <instance_name>dev74125</instance_name>
+        <name>sys_db_object_3e633c6cdbf373008062fe1b6896196f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>ERF Priority</label><live_feed_enabled>false</live_feed_enabled><name>x_393646_erf_erf_priority</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Data Lookup Definitions" name="dl_definition">99e4deeee1f1330078502406b63333ac</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 18:03:45</sys_created_on><sys_id>3e633c6cdbf373008062fe1b6896196f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ERF Priority</sys_name><sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package><sys_policy/><sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope><sys_update_name>sys_db_object_3e633c6cdbf373008062fe1b6896196f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 18:03:45</sys_updated_on><update_access>false</update_access><user_role display_value="x_393646_erf.erf_priority_user" name="x_393646_erf.erf_priority_user">aad73460db3773008062fe1b68961979</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1616898814</payload_hash>
+        <record_name>ERF Priority</record_name>
+        <reverted_from/>
+        <source>aa544726dbe773008062fe1b689619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 18:03:46</sys_created_on>
+        <sys_id>cbd7fc60db3773008062fe1b689619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d07bf16550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 18:03:46</sys_updated_on>
+        <type>Table</type>
+        <update_guid>07d7fc60fd3773004e490b8ed85f3cd4</update_guid>
+        <update_guid_history>07d7fc60fd3773004e490b8ed85f3cd4:-1616898814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 20:29:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>6dd25113d4134647857d0bacf90191b9</sys_id>
+        <sys_metadata>3e633c6cdbf373008062fe1b6896196f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF Priority</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_scope_delete display_value="">95a369f454d64224a795ff6f455b98a4</sys_scope_delete>
+        <sys_update_name>sys_db_object_3e633c6cdbf373008062fe1b6896196f</sys_update_name>
+        <sys_update_version display_value="sys_db_object_3e633c6cdbf373008062fe1b6896196f">cbd7fc60db3773008062fe1b689619d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 20:29:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

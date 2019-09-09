@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="imp" max_length="40" name="x_393646_erf_imp" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Employee" label="Employee" max_length="40" name="u_employee" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Expected start" label="Expected start" max_length="40" name="u_expected_start" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Expense Type" label="Expense Type" max_length="40" name="u_expense_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Expense Type (J)" label="Expense Type (J)" max_length="44" name="u_expense_type__j_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Full Justification" label="Full Justification" max_length="40" name="u_full_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=If other" label="If other" max_length="40" name="u_if_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mode of Travel" label="Mode of Travel" max_length="40" name="u_mode_of_travel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="import_attribute_name=Reimbursement Amount" label="Reimbursement Amount" max_length="15" name="u_reimbursement_amount" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short Visit Justification" label="Short Visit Justification" max_length="40" name="u_short_visit_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status of ERF Request" label="Status of ERF Request" max_length="40" name="u_status_of_erf_request" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Task type" label="Task type" max_length="40" name="u_task_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Travel End Date" label="Travel End Date" max_length="40" name="u_travel_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Travel Start Date" label="Travel Start Date" max_length="40" name="u_travel_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type of Travel" label="Type of Travel" max_length="40" name="u_type_of_travel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Urgency" label="Urgency" max_length="40" name="u_urgency" type="string"/>
+    </element>
+</database>

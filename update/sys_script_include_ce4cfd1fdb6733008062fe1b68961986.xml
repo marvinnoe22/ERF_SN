@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_393646_erf.ERF_count</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>counts the records of erf table</description>
+        <name>ERF_count</name>
+        <script><![CDATA[var ERF_count = Class.create();
+ERF_count.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getRecord: function() {
+        var gr = new GlideRecord("x_393646_erf_erf");
+        gr.query();
+        var count = gr.getRowCount();
+        return count;
+    },
+    getUserAmount: function() {
+        var currentU = gs.getUserID();
+        var fieldUser = this.getParameter("sysparm_employee");
+
+        if (currentU == fieldUser) {
+            var getNum = new GlideAggregate("x_393646_erf_erf");
+            getNum.addEncodedQuery('employee=' + currentU);
+            getNum.addAggregate('COUNT');
+            getNum.query();
+
+            var userTotal = 0;
+            if (getNum.next()) {
+                userTotal = getNum.getAggregate('COUNT');
+            }
+            return userTotal;
+        } else {
+            return false;
+        }
+    },
+    type: 'ERF_count'
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-03 01:54:42</sys_created_on>
+        <sys_id>ce4cfd1fdb6733008062fe1b68961986</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>ERF_count</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_update_name>sys_script_include_ce4cfd1fdb6733008062fe1b68961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 18:35:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>type_of_travel</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 20:39:38</sys_created_on>
+        <sys_id>308eab09db3bf3008062fe1b689619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>type_of_travel</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_update_name>sys_ui_policy_action_308eab09db3bf3008062fe1b689619bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 20:39:38</sys_updated_on>
+        <table>x_393646_erf_erf</table>
+        <ui_policy display_value="only display other field when type_of_travel is other">ee236c1fdb2333008062fe1b689619bb</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

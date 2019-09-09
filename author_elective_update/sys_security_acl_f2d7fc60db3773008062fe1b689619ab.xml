@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_393646_erf_erf_priority</description>
+        <name>x_393646_erf_erf_priority</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 18:03:45</sys_created_on>
+        <sys_id>f2d7fc60db3773008062fe1b689619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393646_erf_erf_priority</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_update_name>sys_security_acl_f2d7fc60db3773008062fe1b689619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 18:03:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">e6544726dbe773008062fe1b689619df</application>
+        <file_path/>
+        <instance_id>b695a58cdbc43b0052dd2f17d49619ef</instance_id>
+        <instance_name>dev74125</instance_name>
+        <name>sys_security_acl_f2d7fc60db3773008062fe1b689619ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_393646_erf_erf_priority</description><name>x_393646_erf_erf_priority</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 18:03:45</sys_created_on><sys_id>f2d7fc60db3773008062fe1b689619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_393646_erf_erf_priority</sys_name><sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package><sys_policy/><sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope><sys_update_name>sys_security_acl_f2d7fc60db3773008062fe1b689619ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 18:03:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1226798208</payload_hash>
+        <record_name>x_393646_erf_erf_priority</record_name>
+        <reverted_from/>
+        <source>aa544726dbe773008062fe1b689619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 18:03:45</sys_created_on>
+        <sys_id>3ad7fc60db3773008062fe1b689619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d07bf13080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 18:03:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>72d7fc603e37730027491905786ce6ad</update_guid>
+        <update_guid_history>72d7fc603e37730027491905786ce6ad:1226798208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 20:29:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>2452f920579e44719a1f16a3c7b73919</sys_id>
+        <sys_metadata>f2d7fc60db3773008062fe1b689619ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393646_erf_erf_priority</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_parent display_value="">f2d7fc60db3773008062fe1b689619bb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_scope_delete display_value="">95a369f454d64224a795ff6f455b98a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f2d7fc60db3773008062fe1b689619ab</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f2d7fc60db3773008062fe1b689619ab">3ad7fc60db3773008062fe1b689619ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 20:29:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

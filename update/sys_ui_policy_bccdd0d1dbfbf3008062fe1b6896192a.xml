@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_393646_erf_erf">employee=255374dbdb6333008062fe1b68961907^ORemployee=1744341fdb6333008062fe1b689619d2^ORemployee=e0b6fcdbdb6333008062fe1b689619f0^ORemployee=dbd6bc9fdb6333008062fe1b68961968^EQ<item display_table="sys_user" display_value="ERF Employee1" endquery="false" field="employee" goto="false" newquery="false" operator="=" or="false" value="255374dbdb6333008062fe1b68961907"/>
+            <item display_table="sys_user" display_value="ERF Employee2" endquery="false" field="employee" goto="false" newquery="false" operator="=" or="true" value="1744341fdb6333008062fe1b689619d2"/>
+            <item display_table="sys_user" display_value="ERF Employee3" endquery="false" field="employee" goto="false" newquery="false" operator="=" or="true" value="e0b6fcdbdb6333008062fe1b689619f0"/>
+            <item display_table="sys_user" display_value="ERF Employee4" endquery="false" field="employee" goto="false" newquery="false" operator="=" or="true" value="dbd6bc9fdb6333008062fe1b68961968"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>make status read only for employees</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 00:06:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bccdd0d1dbfbf3008062fe1b6896192a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>make status read only for employees</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_update_name>sys_ui_policy_bccdd0d1dbfbf3008062fe1b6896192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 00:18:10</sys_updated_on>
+        <table>x_393646_erf_erf</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

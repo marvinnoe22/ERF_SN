@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Dates of Travel" section_id="ef2f2389db3bf3008062fe1b689619eb" sys_domain="global" table="x_393646_erf_erf" version="3" view="employee">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_start_date</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 20:41:41</sys_created_on>
+            <sys_id>b32f6389db3bf3008062fe1b68961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dates of Travel" display_value="Dates of Travel" name="x_393646_erf_erf" sys_domain="global" view="2f2f2389db3bf3008062fe1b689619e6">ef2f2389db3bf3008062fe1b689619eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 20:41:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 20:41:41</sys_created_on>
+            <sys_id>372f6389db3bf3008062fe1b68961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dates of Travel" display_value="Dates of Travel" name="x_393646_erf_erf" sys_domain="global" view="2f2f2389db3bf3008062fe1b689619e6">ef2f2389db3bf3008062fe1b689619eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 20:41:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_end_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 20:41:41</sys_created_on>
+            <sys_id>b72f6389db3bf3008062fe1b68961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dates of Travel" display_value="Dates of Travel" name="x_393646_erf_erf" sys_domain="global" view="2f2f2389db3bf3008062fe1b689619e6">ef2f2389db3bf3008062fe1b689619eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 20:41:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Dates of Travel</caption>
+            <header>false</header>
+            <name>x_393646_erf_erf</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 20:41:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef2f2389db3bf3008062fe1b689619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dates of Travel</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+            <sys_update_name>sys_ui_section_ef2f2389db3bf3008062fe1b689619eb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 20:41:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="employee" name="employee">2f2f2389db3bf3008062fe1b689619e6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

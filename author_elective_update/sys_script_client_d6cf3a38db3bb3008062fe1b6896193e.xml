@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Weekly Count</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   var getWeekly = new GlideAjax("weeklyCount");
+	getWeekly.addParam("sysparm_name", "getRecord");
+	getWeekly.getXML(displayWeekly);
+	
+	function displayWeekly(response){
+		var weeklycount = response.responseXML.documentElement.getAttribute("answer");
+		alert("Weekly count = " + weeklycount);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 23:00:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6cf3a38db3bb3008062fe1b6896193e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Weekly Count</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_update_name>sys_script_client_d6cf3a38db3bb3008062fe1b6896193e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 19:29:52</sys_updated_on>
+        <table>x_393646_erf_erf</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ERF">e6544726dbe773008062fe1b689619df</application>
+        <file_path/>
+        <instance_id>b695a58cdbc43b0052dd2f17d49619ef</instance_id>
+        <instance_name>dev74125</instance_name>
+        <name>sys_script_client_d6cf3a38db3bb3008062fe1b6896193e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Weekly Count&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   var getWeekly = new GlideAjax("weeklyCount");
+	getWeekly.addParam("sysparm_name", "getRecord");
+	getWeekly.getXML(displayWeekly);
+	
+	function displayWeekly(response){
+		var weeklycount = response.responseXML.documentElement.getAttribute("answer");
+		alert("Weekly count = " + weeklycount);
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-07 23:00:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d6cf3a38db3bb3008062fe1b6896193e&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Weekly Count&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ERF" source="x_393646_erf"&gt;e6544726dbe773008062fe1b689619df&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ERF"&gt;e6544726dbe773008062fe1b689619df&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d6cf3a38db3bb3008062fe1b6896193e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-08 19:29:52&lt;/sys_updated_on&gt;&lt;table&gt;x_393646_erf_erf&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>142771289</payload_hash>
+        <record_name>Weekly Count</record_name>
+        <reverted_from/>
+        <source>aa544726dbe773008062fe1b689619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 19:29:52</sys_created_on>
+        <sys_id>e3be1309dbf7f3008062fe1b6896192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d125aa0950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 19:29:52</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6fbe13094af7f3007bbf4ef9c636b92c</update_guid>
+        <update_guid_history>6fbe13094af7f3007bbf4ef9c636b92c:142771289,6cf85b45dff7f300a6aa469c2e0733b1:-1710304564,a6b4570148f7f300e0ab4921c53012d3:2054383404,443313013bf7f30013ad820e677ece8d:-387508039,5985a7f883bbb300a3bd4d451b9cc305:926632777,2250ebb4f6bbb300622486aeff7a26a9:1235665055,f7a19b38ad7bb300cbc8aef990d31970:1673674408,04188f7cc83bb300f012b8219b0d368e:1123516114,83658f7c9c3bb3001d9298cb4444c189:-1120483727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 19:47:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0c2c58f5552b48f880ff344eb4d0ab61</sys_id>
+        <sys_metadata>d6cf3a38db3bb3008062fe1b6896193e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weekly Count</sys_name>
+        <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
+        <sys_parent display_value="Erf Erf">516e03a6db2b73008062fe1b689619a5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
+        <sys_scope_delete display_value="">95a369f454d64224a795ff6f455b98a4</sys_scope_delete>
+        <sys_update_name>sys_script_client_d6cf3a38db3bb3008062fe1b6896193e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d6cf3a38db3bb3008062fe1b6896193e">e3be1309dbf7f3008062fe1b6896192d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 19:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
