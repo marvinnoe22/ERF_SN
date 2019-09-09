@@ -22,7 +22,6 @@
     if (newValue == 'flight') {
         g_form.addOption('type_of_travel', 'economy', 'Economy');
         g_form.addOption('type_of_travel', 'business', 'Business');
-        g_form.addOption('type_of_travel', 'other', 'Other');
     }
     // If the the value of the Request type field is facilities, add
     // two facilities choices and other to the What needed field
@@ -31,7 +30,6 @@
         g_form.addOption('type_of_travel', 'class1', 'Class 1');
         g_form.addOption('type_of_travel', 'class2', 'Class 2');
 		g_form.addOption('type_of_travel', 'class3', 'Class 3');
-        g_form.addOption('type_of_travel', 'other', 'Other');
     }
     // If the the value of the Request type field is legal, add
     // two legal choices and other to the What needed field
@@ -40,7 +38,6 @@
         g_form.addOption('type_of_travel', 'luxury', 'Luxury');
         g_form.addOption('type_of_travel', 'semiSleeper', 'Semi Sleeper');
 		g_form.addOption('type_of_travel', 'fullSleeper', 'Full Sleeper');
-        g_form.addOption('type_of_travel', 'other', 'Other');
     }
     // If the form is loading and it is not a new record, set the u_what_needed value to the
     // value from the record before it was loaded
@@ -55,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ddecd01bdb2333008062fe1b6896197a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Travel Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="ERF" source="x_393646_erf">e6544726dbe773008062fe1b689619df</sys_package>
@@ -63,7 +60,7 @@
         <sys_scope display_value="ERF">e6544726dbe773008062fe1b689619df</sys_scope>
         <sys_update_name>sys_script_client_ddecd01bdb2333008062fe1b6896197a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-02 19:13:35</sys_updated_on>
+        <sys_updated_on>2019-09-09 01:12:47</sys_updated_on>
         <table>x_393646_erf_erf</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
